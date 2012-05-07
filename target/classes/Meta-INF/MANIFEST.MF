@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1336409558700
+Build-Jdk: 1.6.0_27
+Built-By: Stefan
+Bundle-Description: Mock Implementation of the XENEO core api
+Bundle-ManifestVersion: 2
+Bundle-Name: XENEO Mock Implementation
+Bundle-SymbolicName: org.xeneo.service-mocks
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.xeneo.mock;uses:="org.xeneo.core.activity";version="
+ 1.0.0.SNAPSHOT"
+Import-Package: org.xeneo.core.activity;version="[1.0,2)"
+Tool: Bnd-1.50.0
