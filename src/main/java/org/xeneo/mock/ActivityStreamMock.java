@@ -27,7 +27,7 @@ public class ActivityStreamMock implements ActivityStream {
             Activity a = new Activity();
             a.setActivityURI(testURI + uniquePath + "/activity/" + i);
             a.setActionURI(testURI + "action/" + i);
-            a.setActorURI("http://stefanhuber.at/user/stefan");
+            // a.setActorURI("http://stefanhuber.at/user/stefan");
             a.setCreationDate(Calendar.getInstance().getTime());
             a.setSummary("Summary of activity for: " + i);
             a.setDescription("Content of activity for: " + i);
